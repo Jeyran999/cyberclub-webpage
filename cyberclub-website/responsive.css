@@ -1,0 +1,88 @@
+@media screen and (max-width: 970px) {
+  section.hero .left p.title {
+    font-size: 2rem;
+  }
+  section.hero .left p.desc {
+    width: 250px;
+    font-size: 14px;
+  }
+  main.about {
+    gap: 70px;
+  }
+  main.about .right p {
+    font-size: 2rem;
+  }
+  main.about .left p {
+    width: 300px;
+    font-size: 13px;
+  }
+  main.activity .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  section.hero .left p.title {
+    font-size: 1.5rem;
+  }
+  section.hero .left p.desc {
+    width: 200px;
+    font-size: 12px;
+  }
+  section.hero .left button {
+    width: 150px;
+  }
+  main.about {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  main.activity {
+    padding: 30px;
+  }
+  main.activity .box {
+    grid-template-columns: 1fr;
+  }
+  main.activity > p.title {
+    font-size: 2rem;
+  }
+  footer {
+    padding: 0 20px;
+  }
+  footer .left p.title {
+    font-size: 2rem;
+  }
+  footer .row-1 .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer .row-1 .links i {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  section.hero .left p.title {
+    font-size: 1.5rem;
+  }
+  section.hero .left p.desc {
+    width: 200px;
+    font-size: 12px;
+  }
+  section.hero .left button {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  section.hero .left p.title {
+    font-size: 1.5rem;
+  }
+  section.hero .left p.desc {
+    width: 180px;
+    font-size: 12px;
+  }
+  section.hero .left button {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
